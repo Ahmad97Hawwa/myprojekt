@@ -102,6 +102,7 @@ function buildAndShowHomeHTML (categories) {
       var katagorie=chooseRandomCategory(categories);
       console.log(katagorie);
       var temp=JSON.stringify(katagorie);
+      console.log(temp);
       console.log(temp.short_name);
 
       var ht=insertProperty(homeHtml,"randomCategoryShortName",temp.short_name);
