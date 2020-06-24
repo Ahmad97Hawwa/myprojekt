@@ -107,7 +107,7 @@ function buildAndShowHomeHTML (categories) {
       console.log(coco.short_name);
    
 
-      var ht=insertProperty(homeHtml,"randomCategoryShortName",temp.short_name);
+      var ht=insertProperty(homeHtml,"randomCategoryShortName",coco.short_name);
       insertHtml("#main-content",ht);
 
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
